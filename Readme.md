@@ -4,37 +4,42 @@
 
 
 
-## Main page
+# HTML
+
+### Main page
 - Main 
 - Chat
 - More
 
 ## Connected page
 
-### Main
+### Main (friends)
 - [x] Main 
-- [ ] User Detail
-- [ ] chatting
-- [ ] Friend add
-- [ ] Friend search
-- [ ] Friend list maximum/minimum
+- [x] User Detail
+- [x] Friend add (ID, Tel)
+- [x] User Detail (group, one, self)
+- [ ] Friend search (js)
+- [ ] Friend list maximum/minimum (js)
 
 ### Chat
-- [X] Chat
-- [ ] Invite friend
-- [ ] Chat search
-- [ ] Chatting user Detail
-- [ ] Chatting
+- [x] Chat
+- [x] Chatting
+- [x] Invite friend
+- [ ] Chat search (js)
+- [x] Chatting
 
 ### More
-- [X] More
-- [ ] User settings
+- [x] More
 
 ---
 
 ## Common
 
 ### Side-bar
-- [ ] Emoticon shop
-- [ ] Alarm on/off 
-- [ ] Settings
+- [x] Emoticon shop
+- [ ] Alarm on/off (js)
+- [x] Lock mode
+- [x] Logout
+- [x] Settings
+  - [x] profile 
+  - [x] home

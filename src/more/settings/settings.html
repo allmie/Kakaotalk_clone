@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings | Kakaotalk</title>
+  <script src="https://kit.fontawesome.com/200b144238.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main class="kt__settings">
+    <div class="kt__settings__header">
+      <h4 class="kt__settings__header-title">설정</h4>
+    </div>
+    <div class="kt__settings__main">
+      <div class="kt__settings__main__side-bar">
+        <ul class="kt__settings__main__side-bar__list">
+          <li class="kt__settings__main__side-bar__list__column">
+            <h4 class="kt__settings__main__side-bar__list__column-title">일반</h4>
+          </li>
+          <li class="kt__settings__main__side-bar__list__column">
+            <h4 class="kt__settings__main__side-bar__list__column-title">프로필</h4>
+          </li>
+          <li class="kt__settings__main__side-bar__list__column">
+            <h4 class="kt__settings__main__side-bar__list__column-title">알림</h4>
+          </li>
+          <li class="kt__settings__main__side-bar__list__column">
+            <h4 class="kt__settings__main__side-bar__list__column-title">친구</h4>
+          </li>
+          <li class="kt__settings__main__side-bar__list__column">
+            <h4 class="kt__settings__main__side-bar__list__column-title">채팅</h4>
+          </li>
+          <li class="kt__settings__main__side-bar__list__column">
+            <h4 class="kt__settings__main__side-bar__list__column-title">통화</h4>
+          </li>
+          <li class="kt__settings__main__side-bar__list__column">
+            <h4 class="kt__settings__main__side-bar__list__column-title">고급</h4>
+          </li>
+          <li class="kt__settings__main__side-bar__list__column">
+            <h4 class="kt__settings__main__side-bar__list__column-title">실험실</h4>
+          </li>
+          <li class="kt__settings__main__side-bar__list__column">
+            <h4 class="kt__settings__main__side-bar__list__column-title">정보</h4>
+          </li>
+        </ul>
+      </div>
+      <div class="kt__settings__main__selected">
+        <div class="kt__settings__main__selected__settings">
+          <div class="kt__settings__main__selected__settings__header">
+            <h3 class="kt__settings__main__selected__settings__header-title">기본</h3>
+          </div>
+          <div class="kt__settings__main__selected__settings__main">
+            <div class="kt__settings__main__selected__settings__column">
+              <h4 class="kt__settings__main__selected__settings__column__title">화면 배율</h4>
+              <ul class="kt__settings__main__selected__settings__screens__list">
+                <li class="kt__settings__main__selected__settings__screens__column">
+                  100%
+                </li>
+                <li class="kt__settings__main__selected__settings__screens__column">
+                  125%
+                </li>
+                <li class="kt__settings__main__selected__settings__screens__column">
+                  150%
+                </li>
+              </ul>
+            </div>
+            <div class="kt__settings__main__selected__settings__column">
+              <h4 class="kt__settings__main__selected__settings__column__title">폰트</h4>
+              <ul class="kt__settings__main__selected__settings__fonts__list">
+                <li class="kt__settings__main__selected__settings__fonts__column">
+                  맑은 고딕
+                </li>
+                <li class="kt__settings__main__selected__settings__fonts__column">
+                  신명조
+                </li>
+                <li class="kt__settings__main__selected__settings__fonts__column">
+                  나눔 고딕
+                </li>
+              </ul>
+            </div>
+            <div class="kt__settings__main__selected__settings__column">
+              <h4 class="kt__settings__main__selected__settings__column__title">화면 배율</h4>
+              <input type="range">
+              <i class="fas fa-question-circle">
+              </i>
+              <p class="sounds-desc">PC버전 실행시 잠금모드로 자동로그인됩니다. 로그인 후 설정에서 잠금모드 없는 자동 로그인으로 변경할 수 있습니다.</p>
+            </div>
+          </div>
+        </div>
+        <div class="kt__settings__main__selected__login">
+          <div class="kt__settings__main__selected__login__header">
+            <h4 class="kt__settings__main__selected__login__header-title">로그인</h4>
+          </div>
+          <div class="kt__settings__main__selected__login__main">
+            <div class="kt__settings__main__selected__login__main__column">
+              <input type="checkbox" name="auto-play" id="auto-play">
+              <label for="auto-play">윈도우 시작 시 자동실행</label>
+            </div>
+            <div class="kt__settings__main__selected__login__main__column">
+              <input type="checkbox" name="auto-login" id="auto-login">
+              <label for="auto-login">자동로그인
+                <ul class="kt__settings__main__selected__login__main__column__options">
+                  <li class="kt__settings__main__selected__login__main__column__options__column">잠금모드</li>
+                  <li class="kt__settings__main__selected__login__main__column__options__column">잠금모드 해제</li>
+                </ul>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="kt__settings__main__selected__mode">
+          <div class="kt__settings__main__selected__mode__header">
+            <h4 class="kt__settings__main__selected__mode__header-title">잠금모드</h4>
+          </div>
+          <div class="kt__settings__main__selected__mode__main">
+            <input type="checkbox" name="mode" id="mode">
+            <label for="mode">PC 미사용 시 잠그모드 적용
+              <ul class="kt__settings__main__selected__mode__list">
+                <li class="kt__settings__main__selected__mode__list__column">3분 후</li>
+                <li class="kt__settings__main__selected__mode__list__column">10분 후</li>
+                <li class="kt__settings__main__selected__mode__list__column">30분 후</li>
+              </ul>
+            </label>
+          </div>
+        </div>
+        <div class="kt__settings__main__selected__certify">
+          <div class="kt__settings__main__selected__certify__header">
+            <h4 class="kt__settings__main__selected__certify__header-title">PC 인증 해제</h4>
+          </div>
+          <div class="kt__settings__main__selected__certify__main">
+            <h5 class="kt__settings__main__selected__certify__main__desc">
+              사용하는 PC가 변경되었거나 도용이 의심되는 경우 PC인증을 해제한 후 다시 인증을 받을 수 있습니다.
+            </h5>
+            <input type="button" value="PC 인증 해제">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
