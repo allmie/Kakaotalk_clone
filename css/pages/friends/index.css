@@ -1,0 +1,253 @@
+@import "/css/styles.css";
+
+h2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 10px;
+  font-weight: 700;
+}
+h6 {
+  font-size: 9px;
+}
+
+body {
+  width: 390px;
+  min-width: 390px;
+  height: 500px;
+  min-height: 330px;
+  position: relative;
+  top: 60px;
+  left: 60px;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+/* header */
+.header__icon {
+  position: absolute;
+  font-size: 7px;
+  color: rgba(185, 182, 182, 1);
+  top: 10px;
+  right: 10px;
+}
+.header__icon i:not(:last-child) {
+  margin-right: 5px;
+}
+
+.kt__main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+
+/* side-bar */
+.kt__main nav {
+  background-color: rgba(231, 230, 230, 0.5);
+  padding: 30px 20px 30px 25px;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.kt__main nav a {
+  color: rgba(185, 182, 182, 1);
+}
+.kt__main nav .kt__main__side-bar__top a:first-child {
+  color: rgba(129, 129, 129, 1);
+}
+.kt__main nav .kt__main__side-bar__top {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.kt__main nav .kt__main__side-bar__top a:not(:last-child) {
+  margin-bottom: 35px;
+}
+.kt__main nav .kt__main__side-bar__bottom {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+.kt__main nav .kt__main__side-bar__bottom a:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* content */
+.kt__main .kt__main__info {
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  left: 70px;
+  right: 0;
+  bottom: 100px;
+}
+/* main header */
+.kt__main__info .kt__main__info__header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 20px;
+  margin-bottom: 10px;
+}
+.kt__main__info .kt__main__info__header-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.kt__main__info .kt__main__info__header-header a {
+  color: rgba(129, 129, 129, 1);
+}
+
+/* search-bar */
+.kt__main__info .kt__main__info__header .kt__main__info__header__search-bar {
+  background-color: rgba(231, 230, 230, 0.3);
+  color: rgba(185, 182, 182, 1);
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 5px 5px 10px;
+}
+.kt__main__info .kt__main__info__header .kt__main__info__header__search-bar i {
+  margin-right: 5px;
+}
+.kt__main__info
+  .kt__main__info__header
+  .kt__main__info__header__search-bar
+  input {
+  width: 100%;
+  font-size: 10px;
+}
+
+/* user profile self */
+.kt__main .kt__main__info .kt__main__info__user-info {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px 0 20px;
+}
+.kt__main
+  .kt__main__info
+  .kt__main__info__user-info
+  .kt__main__info__user-info__img {
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 13px;
+}
+.kt__main
+  .kt__main__info
+  .kt__main__info__user-info
+  .kt__main__info__user-info__img
+  i {
+  width: 100%;
+  height: 100%;
+  padding: 5px 0;
+  border-radius: 15px;
+  font-size: 35px;
+  /* border: 1px solid black; */
+}
+.kt__main
+  .kt__main__info
+  .kt__main__info__user-info
+  .kt__main__info__user-info__txt {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 5px;
+}
+.kt__main
+  .kt__main__info
+  .kt__main__info__user-info
+  .kt__main__info__user-info__txt__state-msg {
+  color: rgba(129, 129, 129, 1);
+  font-weight: 300;
+}
+
+/* friends list */
+
+.kt__main__info .kt__main__info__friends .kt__main__info__friends__header {
+  margin: 0 15px 0 20px;
+  padding: 10px 0 5px 0;
+  border-top: 0.1px solid rgba(1, 1, 1, 0.1);
+  display: flex;
+  justify-content: space-between;
+  color: rgba(102, 101, 101, 0.8);
+}
+.kt__main__info
+  .kt__main__info__friends
+  .kt__main__info__friends__header
+  .kt__main__info__friends__header__scroll {
+  font-size: 8px;
+}
+.kt__main__info
+  .kt__main__info__friends
+  .kt__main__info__friends-list
+  .kt__main__info__friends-list__column {
+  padding: 5px 15px 5px 20px;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.kt__main__info
+  .kt__main__info__friends
+  .kt__main__info__friends-list
+  .kt__main__info__friends-list__column
+  .kt__main__info__friends-list__column-img {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 15px;
+  /* border: 1px solid black; */
+}
+.kt__main__info
+  .kt__main__info__friends
+  .kt__main__info__friends-list
+  .kt__main__info__friends-list__column
+  .kt__main__info__friends-list__column-img
+  i {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  padding: 5px 0;
+  /* border: 1px solid black; */
+}
+.kt__main__info
+  .kt__main__info__friends
+  .kt__main__info__friends-list
+  .kt__main__info__friends-list__column
+  .kt__main__info__friends-list__column-txt {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 3px;
+}
+.kt__main__info
+  .kt__main__info__friends
+  .kt__main__info__friends-list
+  .kt__main__info__friends-list__column
+  .kt__main__info__friends-list__column-txt__state-msg {
+  color: rgba(75, 75, 75, 0.6);
+  font-weight: 500;
+}
+
+/* footer */
+.ad {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  /* border: 1px solid black; */
+}

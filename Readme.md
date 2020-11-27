@@ -43,3 +43,44 @@
 - [x] Settings
   - [x] profile 
   - [x] home
+
+
+# CSS
+
+### Main page
+- Main 
+- Chat
+- More
+
+## Connected page
+
+### Main (friends)
+- [ ] Main 
+- [ ] User Detail
+- [ ] Friend add (ID, Tel)
+- [ ] User Detail (group, one, self)
+- [ ] Friend search (js)
+- [ ] Friend list maximum/minimum (js)
+
+### Chat
+- [ ] Chat
+- [ ] Chatting
+- [ ] Invite friend
+- [ ] Chat search (js)
+- [ ] Chatting
+
+### More
+- [ ] More
+
+---
+
+## Common
+
+### Side-bar
+- [ ] Emoticon shop
+- [ ] Alarm on/off (js)
+- [ ] Lock mode
+- [ ] Logout
+- [ ] Settings
+  - [ ] profile 
+  - [ ] home
