@@ -1,4 +1,6 @@
 @import "/css/styles.css";
+@import "/css/components/mainSideBar.css";
+@import "/css/components/mainHeader.css";
 
 h2 {
   font-size: 15px;
@@ -23,58 +25,11 @@ body {
   border: 1px solid rgba(1, 1, 1, 0.1);
 }
 
-/* header */
-.header__icon {
-  position: absolute;
-  font-size: 7px;
-  color: rgba(185, 182, 182, 1);
-  top: 10px;
-  right: 10px;
-}
-.header__icon i:not(:last-child) {
-  margin-right: 5px;
-}
-
 .kt__main {
   width: 100%;
   height: 100%;
   position: relative;
   display: flex;
-}
-
-/* side-bar */
-.kt__main nav {
-  background-color: rgba(231, 230, 230, 0.5);
-  padding: 30px 20px 30px 25px;
-  width: 70px;
-  position: absolute;
-  top: 0;
-  bottom: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.kt__main nav a {
-  color: rgba(185, 182, 182, 1);
-}
-.kt__main nav .kt__main__side-bar__top a:first-child {
-  color: rgba(129, 129, 129, 1);
-}
-.kt__main nav .kt__main__side-bar__top {
-  display: flex;
-  flex-direction: column;
-  font-size: 20px;
-}
-.kt__main nav .kt__main__side-bar__top a:not(:last-child) {
-  margin-bottom: 35px;
-}
-.kt__main nav .kt__main__side-bar__bottom {
-  display: flex;
-  flex-direction: column;
-  font-size: 15px;
-}
-.kt__main nav .kt__main__side-bar__bottom a:not(:last-child) {
-  margin-bottom: 20px;
 }
 
 /* content */
@@ -86,6 +41,7 @@ body {
   right: 0;
   bottom: 100px;
 }
+
 /* main header */
 .kt__main__info .kt__main__info__header {
   display: flex;
@@ -241,13 +197,4 @@ body {
   .kt__main__info__friends-list__column-txt__state-msg {
   color: rgba(75, 75, 75, 0.6);
   font-weight: 500;
-}
-
-/* footer */
-.ad {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  /* border: 1px solid black; */
 }
