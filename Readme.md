@@ -2,19 +2,19 @@
 
 : html, css, javascript를 사용해 Kakaotalk app clone 생성
 
-
-
 # HTML
 
 ### Main page
-- Main 
+
+- Main
 - Chat
 - More
 
 ## Connected page
 
 ### Main (friends)
-- [x] Main 
+
+- [x] Main
 - [x] User Detail
 - [x] Friend add (ID, Tel)
 - [x] User Detail (group, one, self)
@@ -22,6 +22,7 @@
 - [ ] Friend list maximum/minimum (js)
 
 ### Chat
+
 - [x] Chat
 - [x] Chatting
 - [x] Invite friend
@@ -29,6 +30,7 @@
 - [x] Chatting
 
 ### More
+
 - [x] More
 
 ---
@@ -36,26 +38,28 @@
 ## Common
 
 ### Side-bar
+
 - [x] Emoticon shop
 - [ ] Alarm on/off (js)
 - [x] Lock mode
 - [x] Logout
 - [x] Settings
-  - [x] profile 
+  - [x] profile
   - [x] home
-
 
 # CSS
 
 ### Main page
-- Main 
-- Chat
-- More
+
+- [x] Main
+- [x] Chat
+- [x] More
 
 ## Connected page
 
-### Main (friends)
-- [ ] Main 
+### Friends
+
+- [x] Main
 - [ ] User Detail
 - [ ] Friend add (ID, Tel)
 - [ ] User Detail (group, one, self)
@@ -63,24 +67,27 @@
 - [ ] Friend list maximum/minimum (js)
 
 ### Chat
-- [ ] Chat
+
+- [x] Chat
 - [ ] Chatting
 - [ ] Invite friend
 - [ ] Chat search (js)
 - [ ] Chatting
 
 ### More
-- [ ] More
+
+- [x] More
 
 ---
 
 ## Common
 
 ### Side-bar
+
 - [ ] Emoticon shop
 - [ ] Alarm on/off (js)
 - [ ] Lock mode
 - [ ] Logout
 - [ ] Settings
-  - [ ] profile 
+  - [ ] profile
   - [ ] home
