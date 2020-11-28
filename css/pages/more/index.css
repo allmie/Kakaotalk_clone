@@ -1,0 +1,160 @@
+@import "/css/styles.css";
+@import "/css/components/mainHeader.css";
+@import "/css/components/mainSideBar.css";
+
+h2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 10px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 10px;
+  font-weight: 600;
+}
+h6 {
+  font-size: 9px;
+}
+
+body {
+  width: 390px;
+  min-width: 390px;
+  height: 500px;
+  min-height: 330px;
+  position: relative;
+  top: 60px;
+  left: 60px;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+.kt__main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+
+/* content */
+.kt__main__info {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  right: 0;
+  bottom: 100px;
+  padding: 30px 15px 0 20px;
+}
+
+/* main header */
+.kt__main__info .kt__main__info__header {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* user info */
+.kt__main__info .kt__main__info__user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.kt__main__info .kt__main__info__user-info .kt__main__info__user-info__img {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 5px;
+}
+.kt__main__info .kt__main__info__user-info .kt__main__info__user-info__img i {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+}
+.kt__main__info .kt__main__info__user-info .kt__main__info__user-info__txt {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+.kt__main__info
+  .kt__main__info__user-info
+  .kt__main__info__user-info__txt
+  .kt__main__info__user-info__txt__email {
+  color: rgba(129, 129, 129, 1);
+  font-weight: 500;
+}
+
+.kt__main__info .kt__main__info__func {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba(231, 230, 230, 0.5);
+  border: 1px solid rgba(206, 206, 206, 0.5);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.kt__main__info .kt__main__info__func .kt__main__info__func__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  color: rgba(1, 1, 1, 0.6);
+}
+.kt__main__info
+  .kt__main__info__func
+  .kt__main__info__func__column:not(:last-child) {
+  border-right: 1px solid rgba(206, 206, 206, 0.8);
+}
+.kt__main__info .kt__main__info__func .kt__main__info__func__column i {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.kt__main__info .kt__main__info__information {
+  height: 140px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(206, 206, 206, 0.6);
+}
+.kt__main__info .kt__main__info__information__slot {
+  height: 50%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.kt__main__info .kt__main__info__information__slot i {
+  font-size: 20px;
+  color: rgba(1, 1, 1, 0.7);
+  margin-bottom: 10px;
+}
+.kt__main__info
+  .kt__main__info__information__slot
+  .kt__main__info__information__slot-title {
+  color: rgba(136, 136, 136, 1);
+}
+
+/* notice */
+.kt__main .kt__main__notice {
+  position: absolute;
+  left: 90px;
+  bottom: 120px;
+}
+.kt__main .kt__main__notice .kt__main__notice-column {
+  display: flex;
+}
+.kt__main .kt__main__notice .kt__main__notice-column .kt__main__notice-keyword {
+  margin-right: 5px;
+}
+.kt__main
+  .kt__main__notice
+  .kt__main__notice-column
+  .kt__main__notice-short-content {
+  color: rgba(105, 105, 105, 1);
+  font-weight: 500;
+}

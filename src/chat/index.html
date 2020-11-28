@@ -1,102 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat | Kakaotalk</title>
+    <script
+      src="https://kit.fontawesome.com/200b144238.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/pages/chat/index.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chat | Kakaotalk</title>
-  <script src="https://kit.fontawesome.com/200b144238.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <header>
-    <div class="header__icon">
-      <i class="fas fa-window-minimize"></i>
-      <i class="far fa-window-maximize"></i>
-      <i class="fas fa-times"></i>
-    </div>
-  </header>
-  <main class="kt__main">
-    <nav class="kt__main__side-bar">
-      <div class="kt__main__side-bar__top">
-        <a href="#">
-          <!-- Main 페이지 연결 -->
-          <i class="fas fa-user"></i>
-        </a>
-        <a href="#">
-          <!-- chat 페이지 연결 -->
-          <i class="fas fa-comment"></i>
-        </a>
-        <a href="#">
-          <!-- more 페이지 연결 -->
-          <i class="fas fa-ellipsis-h"></i>
-        </a>
+  <body>
+    <header>
+      <div class="header__icon">
+        <i class="fas fa-window-minimize"></i>
+        <i class="far fa-window-maximize"></i>
+        <i class="fas fa-times"></i>
       </div>
-      <div class="kt__main__side-bar__bottom">
-        <i class="far fa-smile-beam"></i>
-        <i class="far fa-bell"></i>
-        <i class="fas fa-cog"></i>
-      </div>
-    </nav>
-    <div class="kt__main__info">
-      <div class="kt__main__info__header">
-        <h2 class="kt__main__info__header-title">채팅</h2>
-        <div class="kt__main__info__header__create-chat">
-          <i class="far fa-comments"></i>
+    </header>
+    <main class="kt__main">
+      <nav class="kt__main__side-bar">
+        <div class="kt__main__side-bar__top">
           <a href="#">
-            <!-- select chat user 페이지 연결 -->
-            <i class="fas fa-comment-medical"></i>
+            <!-- Main 페이지 연결 -->
+            <i class="fas fa-user"></i>
+          </a>
+          <a href="#">
+            <!-- chat 페이지 연결 -->
+            <i class="fas fa-comment"></i>
+          </a>
+          <a href="#">
+            <!-- more 페이지 연결 -->
+            <i class="fas fa-ellipsis-h"></i>
           </a>
         </div>
-      </div>
-      <div class="kt__main__info__search-bar">
-        <i class="fas fa-search"></i>
-        <input type="search" name="searchChat" placeholder="채팅방 이름, 참여자 검색">
-      </div>
-      <div class="kt__main__info__chat-user-info">
-        <div class="kt__main__info__chat-user-info__img">
+        <div class="kt__main__side-bar__bottom">
           <a href="#">
-            <!-- chat user Detail 페이지 연결 -->
-            <i class="fas fa-user-tie"></i>
+            <i class="far fa-smile-beam"></i>
+          </a>
+          <a href="#">
+            <i class="far fa-bell"></i>
+          </a>
+          <a href="#">
+            <i class="fas fa-cog"></i>
           </a>
         </div>
-        <div class="kt__main__info__chat-user-info__txt">
-          <h4 class="kt__main__info__chat-user-info__txt__name">Apple</h4>
-          <p class="kt__main__info__chat-user-info__txt__short-chat">신제품 출시</p>
-          <h5 class="kt__main__info__chat-user-info__txt__time">오전 10:36</h5>
+      </nav>
+      <div class="kt__main__info">
+        <div class="kt__main__info__header">
+          <div class="kt__main__info__header__column">
+            <h2 class="kt__main__info__header__column__header-title">채팅</h2>
+            <div class="kt__main__info__header__column__create-chat">
+              <a href="#">
+                <i class="far fa-comments"></i>
+              </a>
+              <a href="#">
+                <!-- select chat user 페이지 연결 -->
+                <i class="fas fa-comment-medical"></i>
+              </a>
+            </div>
+          </div>
+          <div class="kt__main__info__header__column">
+            <div class="kt__main__info__search-bar">
+              <i class="fas fa-search"></i>
+              <input
+                type="search"
+                name="searchChat"
+                placeholder="채팅방 이름, 참여자 검색"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="kt__main__info__list">
+          <div class="kt__main__info__list__chat-user-info">
+            <div class="kt__main__info__list__chat-user-info__img">
+              <a href="#">
+                <!-- chat user Detail 페이지 연결 -->
+                <i class="fas fa-user-tie"></i>
+              </a>
+            </div>
+            <div class="kt__main__info__list__chat-user-info__txt">
+              <h4 class="kt__main__info__list__chat-user-info__txt__name">
+                Apple
+              </h4>
+              <h4 class="kt__main__info__list__chat-user-info__txt__short-chat">
+                신제품 출시
+              </h4>
+            </div>
+            <h6 class="kt__main__info__list__chat-user-info__time">
+              오전 10:36
+            </h6>
+          </div>
+          <div class="kt__main__info__list__chat-user-info">
+            <div class="kt__main__info__list__chat-user-info__img">
+              <a href="#">
+                <!-- chat user Detail 페이지 연결 -->
+                <i class="fas fa-user-tie"></i>
+              </a>
+            </div>
+            <div class="kt__main__info__list__chat-user-info__txt">
+              <h4 class="kt__main__info__list__chat-user-info__txt__name">
+                MS, Android
+              </h4>
+              <h4 class="kt__main__info__list__chat-user-info__txt__short-chat">
+                업데이트 보안 알림
+              </h4>
+            </div>
+            <h6 class="kt__main__info__list__chat-user-info__time">어제</h6>
+          </div>
+          <div class="kt__main__info__list__chat-user-info">
+            <div class="kt__main__info__list__chat-user-info__img">
+              <a href="#">
+                <!-- chat user Detail 페이지 연결 -->
+                <i class="fas fa-user-tie"></i>
+              </a>
+            </div>
+            <div class="kt__main__info__list__chat-user-info__txt">
+              <h4 class="kt__main__info__list__chat-user-info__txt__name">
+                Samsung
+              </h4>
+              <h4
+                class="kt__main__info__list__chat-user-info__txt__short-chat"
+              ></h4>
+            </div>
+            <h6 class="kt__main__info__list__chat-user-info__time">7일 전</h6>
+          </div>
         </div>
       </div>
-      <div class="kt__main__info__chat-user-info">
-        <div class="kt__main__info__chat-user-info__img">
-          <a href="#">
-            <!-- chat user Detail 페이지 연결 -->
-            <i class="fas fa-user-tie"></i>
-          </a>
-        </div>
-        <div class="kt__main__info__chat-user-info__txt">
-          <h4 class="kt__main__info__chat-user-info__txt__name">MS, Android</h4>
-          <p class="kt__main__info__chat-user-info__txt__short-chat">업데이트 보안 알림</p>
-          <h5 class="kt__main__info__chat-user-info__txt__time">어제</h5>
-        </div>
-      </div>
-      <div class="kt__main__info__chat-user-info">
-        <div class="kt__main__info__chat-user-info__img">
-          <a href="#">
-            <!-- chat user Detail 페이지 연결 -->
-            <i class="fas fa-user-tie"></i>
-          </a>
-        </div>
-        <div class="kt__main__info__chat-user-info__txt">
-          <h4 class="kt__main__info__chat-user-info__txt__name">Samsung</h4>
-          <p class="kt__main__info__chat-user-info__txt__short-chat"></p>
-          <h5 class="kt__main__info__chat-user-info__txt__time">7일 전</h5>
-        </div>
-      </div>
-    </div>
-  </main>
-  <footer class="ad">
-    <img src="" alt="광고 자리">
-  </footer>
-</body>
-
+    </main>
+    <footer class="ad">
+      <img src="" alt="광고 자리" />
+    </footer>
+  </body>
 </html>

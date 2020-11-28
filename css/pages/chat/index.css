@@ -1,0 +1,181 @@
+@import "/css/styles.css";
+@import "/css/components/mainHeader.css";
+@import "/css/components/mainSideBar.css";
+
+h2 {
+  font-size: 15px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 10px;
+  font-weight: 700;
+}
+h6 {
+  font-size: 9px;
+}
+
+body {
+  width: 390px;
+  min-width: 390px;
+  height: 500px;
+  min-height: 330px;
+  position: relative;
+  top: 60px;
+  left: 60px;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+/* header */
+.header__icon {
+  position: absolute;
+  font-size: 7px;
+  color: rgba(185, 182, 182, 1);
+  top: 10px;
+  right: 10px;
+}
+.header__icon i:not(:last-child) {
+  margin-right: 5px;
+}
+
+.kt__main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+}
+
+/* content */
+.kt__main .kt__main__info {
+  padding-top: 30px;
+  position: absolute;
+  top: 0;
+  left: 70px;
+  right: 0;
+  bottom: 100px;
+}
+
+/* main header */
+.kt__main__info .kt__main__info__header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  padding: 0 15px 0 20px;
+  margin-bottom: 5px;
+}
+.kt__main__info
+  .kt__main__info__header
+  .kt__main__info__header__column:first-child {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.kt__main__info
+  .kt__main__info__header
+  .kt__main__info__header__column
+  .kt__main__info__header__column__create-chat
+  a {
+  font-size: 15px;
+  margin-left: 5px;
+  color: rgba(129, 129, 129, 1);
+}
+
+/* search-bar */
+.kt__main__info
+  .kt__main__info__header
+  .kt__main__info__header__column
+  .kt__main__info__search-bar {
+  background-color: rgba(231, 230, 230, 0.3);
+  color: rgba(185, 182, 182, 1);
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 5px 5px 10px;
+}
+.kt__main__info
+  .kt__main__info__header
+  .kt__main__info__header__column
+  .kt__main__info__search-bar
+  i {
+  margin-right: 5px;
+}
+.kt__main__info
+  .kt__main__info__header
+  .kt__main__info__header__column
+  .kt__main__info__search-bar
+  input {
+  width: 100%;
+  font-size: 10px;
+}
+
+/* friends list */
+
+.kt__main .kt__main__info .kt__main__info__list {
+  display: grid;
+  grid-template-rows: auto;
+}
+.kt__main
+  .kt__main__info
+  .kt__main__info__list
+  .kt__main__info__list__chat-user-info {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px 10px 20px;
+  position: relative;
+}
+.kt__main
+  .kt__main__info
+  .kt__main__info__list
+  .kt__main__info__list__chat-user-info
+  .kt__main__info__list__chat-user-info__img {
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 15px;
+}
+
+.kt__main
+  .kt__main__info
+  .kt__main__info__list
+  .kt__main__info__list__chat-user-info
+  .kt__main__info__list__chat-user-info__img
+  i {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  padding: 5px 0;
+}
+.kt__main
+  .kt__main__info
+  .kt__main__info__list
+  .kt__main__info__list__chat-user-info
+  .kt__main__info__list__chat-user-info__txt {
+  display: grid;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+.kt__main
+  .kt__main__info
+  .kt__main__info__list
+  .kt__main__info__list__chat-user-info
+  .kt__main__info__list__chat-user-info__txt
+  .kt__main__info__list__chat-user-info__txt__short-chat {
+  color: rgba(75, 75, 75, 0.6);
+  font-weight: 600;
+}
+.kt__main
+  .kt__main__info
+  .kt__main__info__list
+  .kt__main__info__list__chat-user-info
+  .kt__main__info__list__chat-user-info__time {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: rgba(75, 75, 75, 0.3);
+  font-weight: 600;
+}
