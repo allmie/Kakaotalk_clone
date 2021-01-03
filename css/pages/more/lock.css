@@ -1,0 +1,108 @@
+@import "/css/components/reset.css";
+
+h2 {
+  font-size: 12px;
+  font-weight: 700;
+}
+h4 {
+  font-size: 10px;
+  font-weight: 700;
+}
+h6 {
+  font-size: 9px;
+}
+
+body {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  top: 60px;
+  left: 60px;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* header */
+header {
+  display: flex;
+}
+.header__icon {
+  position: absolute;
+  font-size: 8px;
+  color: rgba(57, 39, 34, 0.6);
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+.header__icon .header__icon__column {
+  display: flex;
+  /* border: 1px solid black; */
+}
+.header__icon .header__icon__column:first-child {
+  border-right: 1px solid rgba(57, 39, 34, 0.6);
+}
+.header__icon .header__icon__column:first-child i {
+  padding-right: 10px;
+}
+.header__icon .header__icon__column:last-child i {
+  margin-left: 10px;
+}
+
+/* main */
+.kt__main {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 80px 50px;
+  background-color: yellow;
+}
+.kt__main .kt__main__user-profile .kt__main__user-profile__img {
+  position: relative;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.kt__main .kt__main__user-profile .kt__main__user-profile__img i {
+  padding-top: 20px;
+  width: 70px;
+  height: 70px;
+  color: rgba(210, 233, 252, 1);
+  background-color: rgba(154, 220, 250, 1);
+  border-radius: 30px;
+}
+.kt__main .kt__main__user-profile .kt__main__user-profile__email {
+  margin-bottom: 30px;
+}
+.kt__main .kt__main__user-profile .kt__main__user-profile__state-msg {
+  margin-bottom: 20px;
+}
+
+.kt__main .kt__main__form input:not(:last-child) {
+  width: 100%;
+  height: 30px;
+  color: rgba(185, 182, 182, 0.9);
+  background-color: rgba(255, 255, 255, 1);
+  border: 0.2px solid rgba(185, 182, 182, 0.5);
+  border-radius: 2px;
+  padding: 0 5px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+.kt__main .kt__main__form input:not(:last-child)::placeholder {
+  color: rgba(185, 182, 182, 0.9);
+}
+.kt__main .kt__main__form input[type="reset"] {
+  color: rgba(146, 145, 145, 1);
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+/* footer */
+.ad {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}

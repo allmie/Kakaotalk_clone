@@ -84,10 +84,10 @@
 
 ### Side-bar
 
-- [ ] Emoticon shop
+- [x] Emoticon shop
 - [ ] Alarm on/off (js)
-- [ ] Lock mode
-- [ ] Logout
+- [x] Lock mode
+- [x] Logout
 - [ ] Settings
   - [ ] profile
   - [ ] home

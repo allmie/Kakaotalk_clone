@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emoticon shop | Kakaotalk</title>
-  <script src="https://kit.fontawesome.com/200b144238.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header>
-    <div class="header__icon">
-      <div class="header__icon__column">
-        <i class="fas fa-bell"></i>
-        <i class="fas fa-cog"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emoticon shop | Kakaotalk</title>
+    <script
+      src="https://kit.fontawesome.com/200b144238.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/pages/more/lock.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__icon">
+        <div class="header__icon__column">
+          <i class="fas fa-bell"></i>
+          <i class="fas fa-cog"></i>
+        </div>
+        <div class="header__icon__column">
+          <i class="fas fa-window-minimize"></i>
+          <i class="far fa-window-maximize"></i>
+          <i class="fas fa-times"></i>
+        </div>
       </div>
-      <div class="header__icon__column">
-        <i class="fas fa-window-minimize"></i>
-        <i class="far fa-window-maximize"></i>
-        <i class="fas fa-times"></i>
+    </header>
+    <main class="kt__main">
+      <div class="kt__main__user-profile">
+        <div class="kt__main__user-profile__img">
+          <i class="fas fa-user-tie"></i>
+        </div>
+        <h4 class="kt__main__user-profile__email">all***@naver.com</h4>
+        <h2 class="kt__main__user-profile__state-msg">잠금모드 상태입니다</h2>
       </div>
-    </div>
-  </header>
-  <main class="kt__main">
-    <div class="kt__main__user-profile">
-      <div class="kt__main__user-profile__img">
-        <i class="fas fa-user-tie"></i>
+      <div class="kt__main__form">
+        <input type="password" name="password" placeholder="비밀번호" />
+        <input type="button" value="확인" />
+        <input type="reset" value="비밀번호 재설정" />
       </div>
-      <h4 class="kt__main__user-profile__email">all***@naver.com</h4>
-      <h2 class="kt__main__user-profile__state-msg">잠금모드 상태입니다</h2>
-    </div>
-    <div class="kt__main__form">
-      <input type="password" name="password">
-      <input type="button" value="확인">
-      <a href="#">
-        <h4 class="password-reset">비밀번호 재설정</h4>
-      </a>
-    </div>
-  </main>
-  <footer class="ad">
-    <img src="" alt="광고 자리">
-  </footer>
-</body>
+    </main>
+    <footer class="ad">
+      <img src="" alt="광고 자리" />
+    </footer>
+  </body>
 </html>

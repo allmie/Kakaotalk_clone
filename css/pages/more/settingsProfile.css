@@ -1,0 +1,177 @@
+@import "/css/components/settingsSideBar.css";
+@import "/css/components/settingsHeader.css";
+@import "/css/styles.css";
+
+h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 11px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 11px;
+}
+
+main
+  .kt__settings__main
+  nav
+  .kt__settings__main__side-bar__list
+  .kt__settings__main__side-bar__list__column:nth-child(2) {
+  color: rgba(1, 1, 1, 1);
+  background-color: rgba(1, 1, 1, 0.08);
+}
+
+body {
+  width: 430px;
+  height: 500px;
+  position: relative;
+  top: 60px;
+  left: 60px;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+main
+  .kt__settings__main
+  nav
+  .kt__settings__main__side-bar__list
+  .kt__settings__main__side-bar__list__column
+  a {
+  color: rgba(1, 1, 1, 0.4);
+}
+main
+  .kt__settings__main
+  nav
+  .kt__settings__main__side-bar__list
+  .kt__settings__main__side-bar__list__column:nth-child(2) {
+  background-color: rgba(1, 1, 1, 0.08);
+}
+main
+  .kt__settings__main
+  nav
+  .kt__settings__main__side-bar__list
+  .kt__settings__main__side-bar__list__column:nth-child(2)
+  a {
+  color: rgba(1, 1, 1, 1);
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__header {
+  margin-bottom: 20px;
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__user-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__user-profile
+  .kt__settings__main__selected__user-profile__img
+  i {
+  font-size: 40px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__user-profile
+  .kt__settings__main__selected__user-profile__img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin-right: 10px;
+  text-align: center;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__user-profile
+  .kt__settings__main__selected__user-profile__txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__user-profile
+  .kt__settings__main__selected__user-profile__txt
+  span
+  h4 {
+  margin-bottom: 5px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__user-profile
+  .kt__settings__main__selected__user-profile__txt
+  span
+  h5 {
+  color: rgba(1, 1, 1, 0.5);
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__user-profile
+  .kt__settings__main__selected__user-profile__txt
+  input {
+  width: 70px;
+  height: 25px;
+  font-size: 12px;
+  border: 0.5px solid rgba(1, 1, 1, 0.1);
+  border-radius: 2px;
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__account {
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__account
+  > div {
+  display: flex;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__account
+  .kt__settings__main__selected__title {
+  width: 60px;
+  color: rgba(1, 1, 1, 0.7);
+  margin-bottom: 15px;
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__check-id {
+  display: flex;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__check-id
+  input {
+  margin-right: 5px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__check-id
+  label {
+  font-size: 11px;
+  font-weight: 600;
+}

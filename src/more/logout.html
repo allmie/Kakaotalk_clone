@@ -1,48 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogIn | Kakaotalk</title>
+    <script
+      src="https://kit.fontawesome.com/200b144238.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/pages/more/logout.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LogIn | Kakaotalk</title>
-  <script src="https://kit.fontawesome.com/200b144238.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <header>
-    <div class="header__icon">
-      <div class="header__icon__column">
-        <i class="fas fa-cog"></i>
+  <body>
+    <header>
+      <div class="header__icon">
+        <div class="header__icon__column">
+          <i class="fas fa-cog"></i>
+        </div>
+        <div class="header__icon__column">
+          <i class="fas fa-window-minimize"></i>
+          <i class="fas fa-times"></i>
+        </div>
       </div>
-      <div class="header__icon__column">
-        <i class="fas fa-window-minimize"></i>
-        <i class="fas fa-times"></i>
+    </header>
+    <main class="kt__main">
+      <div class="kt__main__img">
+        <i class="fab fa-kickstarter"></i>
       </div>
-    </div>
-  </header>
-  <main class="kt__main">
-    <div class="kt__main__login-form">
-      <input type="text" name="login-id">
-      <input type="password" name="password">
-      <input type="button" value="로그인">
-      <span>
-        <input type="checkbox" name="auto-login" id="auto-login">
-        <label for="auto-login">
-          자동로그인
-          <i class="fas fa-question-circle"></i>
-          <p class="auto-login-desc">PC버전 실행시 잠금모드로 자동로그인됩니다. 로그인 후 설정에서 잠금모드 없는 자동 로그인으로 변경할 수 있습니다.</p>
-        </label>
-      </span>
-    </div>
-  </main>
-  <footer class="forget-account">
-    <a href="#">
-      <p class="foret-account__id">카카오계정 찾기</p>
-    </a>
-    <a href="#">
-      <p class="foret-account__pw">비밀번호 재설정</p>
-    </a>
-  </footer>
-</body>
-
+      <div class="kt__main__login-form">
+        <input type="email" name="login-id" placeholder="계정" />
+        <input type="password" name="password" placeholder="비밀번호" />
+        <input type="button" value="로그인" />
+        <span class="kt__main__login-form__auto-login">
+          <input type="checkbox" name="auto-login" id="auto-login" />
+          <label for="auto-login">
+            자동로그인
+            <i class="fas fa-question-circle"></i>
+            <p class="auto-login-desc">
+              PC버전 실행시 잠금모드로 자동로그인됩니다. 로그인 후 설정에서
+              잠금모드 없는 자동 로그인으로 변경할 수 있습니다.
+            </p>
+          </label>
+        </span>
+      </div>
+    </main>
+    <footer class="forget-account">
+      <a href="#">
+        <h4 class="foret-account__id">카카오계정 찾기</h4>
+      </a>
+      <a href="#">
+        <h4 class="foret-account__pw">비밀번호 재설정</h4>
+      </a>
+    </footer>
+  </body>
 </html>

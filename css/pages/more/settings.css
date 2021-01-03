@@ -1,0 +1,323 @@
+@import "/css/components/settingsSideBar.css";
+@import "/css/components/settingsHeader.css";
+@import "/css/styles.css";
+
+h2 {
+  font-size: 15px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 11px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 10px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 13px;
+}
+
+body {
+  width: 430px;
+  height: 500px;
+  position: relative;
+  top: 60px;
+  left: 60px;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+}
+
+main .kt__settings__main .kt__settings__main__selected {
+  overflow: scroll;
+}
+
+main
+  .kt__settings__main
+  nav
+  .kt__settings__main__side-bar__list
+  .kt__settings__main__side-bar__list__column
+  a {
+  color: rgba(1, 1, 1, 0.4);
+}
+main
+  .kt__settings__main
+  nav
+  .kt__settings__main__side-bar__list
+  .kt__settings__main__side-bar__list__column:first-child {
+  background-color: rgba(1, 1, 1, 0.08);
+}
+main
+  .kt__settings__main
+  nav
+  .kt__settings__main__side-bar__list
+  .kt__settings__main__side-bar__list__column:first-child
+  a {
+  color: rgba(1, 1, 1, 1);
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__settings
+  .kt__settings__main__selected__settings__header {
+  margin-bottom: 20px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__settings
+  .kt__settings__main__selected__settings__main {
+  margin-bottom: 25px;
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__settings
+  .kt__settings__main__selected__settings__main
+  .kt__settings__main__selected__settings__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__settings
+  .kt__settings__main__selected__settings__main
+  .kt__settings__main__selected__settings__column
+  select {
+  width: 160px;
+  height: 25px;
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  font-size: 11px;
+  color: rgba(1, 1, 1, 0.8);
+  padding-left: 3px;
+  display: flex;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__settings
+  .kt__settings__main__selected__settings__main
+  .kt__settings__main__selected__settings__column
+  .sounds-control {
+  width: 160px;
+  height: 25px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__settings
+  .kt__settings__main__selected__settings__main
+  .kt__settings__main__selected__settings__column
+  .sounds-control
+  input[type="range"] {
+  width: 130px;
+  height: 3px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__settings
+  .kt__settings__main__selected__settings__main
+  .kt__settings__main__selected__settings__column
+  .sounds-desc {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: -60px;
+  font-size: 9px;
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 1);
+  opacity: 0.7;
+  border-radius: 2px;
+  width: 160px;
+  color: rgba(229, 229, 229, 1);
+  padding: 10px;
+  line-height: 13px;
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__login {
+  margin-bottom: 25px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__login
+  .kt__settings__main__selected__login__header {
+  margin-bottom: 20px;
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__login
+  .kt__settings__main__selected__login__main
+  .kt__settings__main__selected__login__main__column {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__login
+  .kt__settings__main__selected__login__main
+  .kt__settings__main__selected__login__main__column
+  label {
+  font-size: 12px;
+  font-weight: 500;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__login
+  .kt__settings__main__selected__login__main
+  .kt__settings__main__selected__login__main__column
+  label
+  input {
+  margin-right: 5px;
+  font-size: 30px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__login
+  .kt__settings__main__selected__login__main
+  .kt__settings__main__selected__login__main__column
+  select {
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  color: rgba(1, 1, 1, 0.8);
+  width: 90px;
+  height: 25px;
+  font-size: 11px;
+  padding-left: 3px;
+}
+
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__mode {
+  margin-bottom: 25px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__mode
+  .kt__settings__main__selected__mode__header {
+  margin-bottom: 20px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__mode
+  .kt__settings__main__selected__mode__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__mode
+  .kt__settings__main__selected__mode__main
+  input {
+  margin-right: 5px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__mode
+  .kt__settings__main__selected__mode__main
+  label {
+  font-size: 12px;
+  font-weight: 500;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__mode
+  .kt__settings__main__selected__mode__main
+  select {
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  color: rgba(1, 1, 1, 0.8);
+  width: 90px;
+  height: 25px;
+  font-size: 11px;
+  padding-left: 3px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__certify {
+  margin-bottom: 35px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__certify
+  .kt__settings__main__selected__certify__header {
+  margin-bottom: 20px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__certify
+  .kt__settings__main__selected__certify__main
+  .kt__settings__main__selected__certify__main__desc {
+  color: rgba(137, 137, 137, 1);
+  margin-bottom: 10px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__certify
+  .kt__settings__main__selected__certify__main
+  input[type="button"] {
+  width: 90px;
+  height: 25px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.9);
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__hotkey
+  .kt__settings__main__selected__hotkey-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__hotkey
+  .kt__settings__main__selected__hotkey-header
+  .kt__settings__main__selected__hotkey-header-find {
+  font-size: 10px;
+}
+main
+  .kt__settings__main
+  .kt__settings__main__selected
+  .kt__settings__main__selected__hotkey
+  .kt__settings__main__selected__hotkey__main
+  .kt__settings__main__selected__hotkey__main-desc {
+  color: rgba(137, 137, 137, 1);
+}

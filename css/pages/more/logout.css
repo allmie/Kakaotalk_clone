@@ -1,0 +1,111 @@
+@import "/css/components/reset.css";
+
+body {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  top: 60px;
+  left: 60px;
+  border: 1px solid rgba(1, 1, 1, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* header */
+header {
+  display: flex;
+}
+.header__icon {
+  position: absolute;
+  font-size: 8px;
+  color: rgba(57, 39, 34, 0.6);
+  top: 10px;
+  right: 10px;
+  display: flex;
+}
+.header__icon .header__icon__column {
+  display: flex;
+}
+.header__icon .header__icon__column:first-child {
+  border-right: 1px solid rgba(57, 39, 34, 0.6);
+}
+.header__icon .header__icon__column:first-child i {
+  padding-right: 10px;
+}
+.header__icon .header__icon__column:last-child i {
+  margin-left: 10px;
+}
+
+/* main */
+.kt__main {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: yellow;
+  padding: 80px 50px;
+}
+.kt__main .kt__main__img {
+  font-size: 80px;
+  margin-bottom: 30px;
+  color: rgba(57, 39, 34, 1);
+}
+.kt__main .kt__main__login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kt__main .kt__main__login-form > input {
+  width: 100%;
+  height: 30px;
+  color: rgba(1, 1, 1, 0.8);
+  background-color: rgba(255, 255, 255, 1);
+  border: 0.2px solid rgba(185, 182, 182, 0.5);
+  border-radius: 2px;
+  padding: 0 5px;
+  font-size: 10px;
+}
+.kt__main .kt__main__login-form > input[type="button"] {
+  margin: 5px 0;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(57, 39, 34, 1);
+}
+.kt__main .kt__main__login-form .kt__main__login-form__auto-login {
+  width: 100%;
+  display: flex;
+}
+.kt__main .kt__main__login-form .kt__main__login-form__auto-login label {
+  display: flex;
+  padding-left: 5px;
+  font-size: 10px;
+  align-items: center;
+  color: rgba(92, 88, 88, 0.8);
+}
+.kt__main .kt__main__login-form .kt__main__login-form__auto-login label i {
+  margin-left: 3px;
+  font-size: 12px;
+  color: rgba(185, 182, 182, 0.5);
+}
+.kt__main .kt__main__login-form .kt__main__login-form__auto-login label p {
+  display: none;
+}
+
+/* footer */
+.forget-account {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 40px;
+}
+.forget-account a {
+  padding: 0 5px;
+}
+.forget-account a:first-child {
+  border-right: 1px solid rgba(92, 88, 88, 0.2);
+}
+.forget-account h4 {
+  font-size: 10px;
+  color: rgba(92, 88, 88, 1);
+}
