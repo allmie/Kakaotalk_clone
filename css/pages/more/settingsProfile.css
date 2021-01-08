@@ -135,11 +135,6 @@ main
 main
   .kt__settings__main
   .kt__settings__main__selected
-  .kt__settings__main__selected__account {
-}
-main
-  .kt__settings__main
-  .kt__settings__main__selected
   .kt__settings__main__selected__account
   > div {
   display: flex;

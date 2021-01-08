@@ -16,9 +16,7 @@ h6 {
 
 body {
   width: 390px;
-  min-width: 390px;
-  height: 500px;
-  min-height: 330px;
+  height: 550px;
   position: relative;
   top: 60px;
   left: 60px;
@@ -45,6 +43,10 @@ body {
 }
 
 /* content */
+.kt__main nav .kt__main__side-bar__top a:nth-child(2) {
+  color: rgba(129, 129, 129, 1);
+}
+
 .kt__main .kt__main__info {
   padding-top: 30px;
   position: absolute;

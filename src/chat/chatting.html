@@ -1,101 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chatting | Kakaotalk</title>
-  <script src="https://kit.fontawesome.com/200b144238.js" crossorigin="anonymous"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatting | Kakaotalk</title>
+    <script
+      src="https://kit.fontawesome.com/200b144238.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/pages/chat/chatting.css" />
+  </head>
 
-<body>
-  <header>
-    <div class="header__icon">
-      <i class="fas fa-window-minimize"></i>
-      <i class="far fa-window-maximize"></i>
-      <i class="fas fa-times"></i>
-    </div>
-  </header>
-  <main class="kt__main">
-    <div class="kt__main__header">
-      <div class="kt__main__header__column">
-        <div class="kt__main__header__column__friend-img">
-          <a href="#" >
+  <body>
+    <header>
+      <div class="header__icon">
+        <i class="fas fa-window-minimize"></i>
+        <i class="far fa-window-maximize"></i>
+        <a href="/src/chat/index.html">
+          <i class="fas fa-times"></i>
+        </a>
+      </div>
+    </header>
+    <main class="kt__main">
+      <div class="kt__main__header">
+        <div class="kt__main__header__column">
+          <a href="#">
+            <div class="kt__main__header__column__friend-img">
+              <i class="fas fa-user-tie"></i>
+            </div>
+          </a>
+        </div>
+        <div class="kt__main__header__column">
+          <div class="kt__main__header__column__row">
+            <h4 class="kt__main__header__column__row__friend-name">Apple</h4>
+          </div>
+          <div class="kt__main__header__column__row">
+            <div class="kt__main__header__column__row__column">
+              <i class="fas fa-inbox"></i>
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="kt__main__header__column__row__column">
+              <i class="fas fa-bell"></i>
+              <i class="fas fa-grip-lines"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="kt__main__chatting__record">
+        <div class="kt__main__chatting__record__friend">
+          <a href="#">
             <!-- user Detail 페이지 연결 -->
             <i class="fas fa-user-tie"></i>
           </a>
+          <span>
+            <h4 class="friend-name">Apple</h4>
+            <p>무엇을 도와드릴까요?</p>
+          </span>
+        </div>
+        <div class="kt__main__chatting__record__mine">
+          <p>apple의 다음 계획?</p>
+        </div>
+        <div class="kt__main__chatting__record__friend">
+          <a href="#">
+            <!-- user Detail 페이지 연결 -->
+            <i class="fas fa-user-tie"></i>
+          </a>
+          <span>
+            <h4 class="friend-name">Apple</h4>
+            <p>신제품 출시</p>
+          </span>
         </div>
       </div>
-      <div class="kt__main__header__column">
-        <div class="kt__main__header__column__row">
-          <h4 class="kt__main__header__column__row__friend-name">Steve Jobs</h4>
-        </div>
-        <div class="kt__main__header__column__row">
-          <div class="kt__main__header__column__row__column">
-            <i class="fas fa-inbox"></i>
-            <i class="fas fa-search"></i>
-          </div>
-          <div class="kt__main__header__column__row__column">
-            <i class="fas fa-bell"></i>
-            <i class="fas fa-grip-lines"></i>
-          </div>
-        </div>
+    </main>
+    <footer class="kt__more-func">
+      <div class="kt__more-func__chatting__insert">
+        <textarea name="chat-content"></textarea>
+        <input type="button" value="전송" />
       </div>
-    </div>
-    <div class="kt__main__chatting__record">
-      <div class="kt__main__chatting__record__friend">
-        <a href="#" >
-          <!-- user Detail 페이지 연결 -->
-          <i class="fas fa-user-tie"></i>
-        </a>
-        <p>dialoog</p>
+      <div class="kt__more-func__bottom">
+        <ul class="kt__more-func__bottom__list">
+          <li class="kt__more-func__bottom__list__column">
+            <a href="#">
+              <i class="far fa-smile"></i>
+            </a>
+          </li>
+          <li class="kt__more-func__bottom__list__column">
+            <a href="#">
+              <i class="fas fa-paperclip"></i>
+            </a>
+          </li>
+          <li class="kt__more-func__bottom__list__column">
+            <a href="#">
+              <i class="fas fa-phone-alt"></i>
+            </a>
+          </li>
+          <li class="kt__more-func__bottom__list__column">
+            <a href="#">
+              <i class="far fa-calendar-plus"></i>
+            </a>
+          </li>
+          <li class="kt__more-func__bottom__list__column">
+            <a href="#">
+              <i class="fas fa-camera"></i>
+            </a>
+          </li>
+        </ul>
+        <input type="range" name="transparent-control" />
       </div>
-      <div class="kt__main__chatting__record__mine">
-        <p>dialoog</p>
-      </div>
-      <div class="kt__main__chatting__record__friend">
-        <a href="#" >
-          <!-- user Detail 페이지 연결 -->
-          <i class="fas fa-user-tie"></i>
-        </a>
-        <p>dialoog</p>
-      </div>
-    </div>
-  </main>
-  <footer class="kt__more-func">
-    <div class="kt__more-func__chatting__insert">
-      <textarea name="chat-content" cols="30" rows="10"></textarea>
-      <input type="button" value="전송">
-    </div>
-    <div class="kt__more-func__bottom">
-      <ul class="kt__more-func__bottom__list">
-        <li class="kt__more-func__bottom__list__column">
-          <a href="#">
-            <i class="far fa-smile"></i>
-          </a>
-        </li>
-        <li class="kt__more-func__bottom__list__column">
-          <a href="#">
-            <i class="fas fa-paperclip"></i>
-          </a>
-        </li>
-        <li class="kt__more-func__bottom__list__column">
-          <a href="#">
-            <i class="fas fa-phone-alt"></i>
-          </a>
-        </li>
-        <li class="kt__more-func__bottom__list__column">
-          <a href="#">
-            <i class="far fa-calendar-plus"></i>
-          </a>
-        </li>
-        <li class="kt__more-func__bottom__list__column">
-          <a href="#">
-            <i class="fas fa-camera"></i>
-          </a>
-        </li>
-      </ul>
-      <input type="range" name="transparent-control">
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>

@@ -69,10 +69,9 @@
 ### Chat
 
 - [x] Chat
-- [ ] Chatting
-- [ ] Invite friend
+- [x] Chatting
+- [x] Invite friend
 - [ ] Chat search (js)
-- [ ] Chatting
 
 ### More
 
@@ -88,6 +87,6 @@
 - [ ] Alarm on/off (js)
 - [x] Lock mode
 - [x] Logout
-- [ ] Settings
-  - [ ] profile
-  - [ ] home
+- [x] Settings
+  - [x] profile
+  - [x] home
