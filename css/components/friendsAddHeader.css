@@ -1,0 +1,35 @@
+header {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 10px;
+}
+header i {
+  color: rgba(1, 1, 1, 0.4);
+}
+
+main .kt__main__header {
+  padding: 30px 20px 0 20px;
+  border-bottom: 0.3px solid rgba(1, 1, 1, 0.2);
+}
+main .kt__main__header .kt__main__header__title {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+main .kt__main__header .kt__main__header__sub-header {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+}
+main .kt__main__header .kt__main__header__sub-header a {
+  padding-bottom: 10px;
+  color: rgba(1, 1, 1, 0.4);
+}
+main .kt__main__header .kt__main__header__sub-header a:first-child {
+  margin-right: 15px;
+}
+
+main .kt__main__form {
+  padding: 0 20px;
+  padding-top: 30px;
+}

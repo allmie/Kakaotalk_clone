@@ -1,46 +1,68 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Friends add with tel | Kakaotalk</title>
-  <script src="https://kit.fontawesome.com/200b144238.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header>
-    <div class="header__icon">
-      <i class="fas fa-times"></i>
-    </div>
-  </header>
-  <main class="kt__main">
-    <div class="kt__main__header">
-      <h2 class="kt__main__header__title">친구 추가</h2>
-      <div class="kt__main__header__sub-header">
-        <a href="#">
-          <h4 class="kt__main__header__sub-header__sub-title">연락처로 추가</h4>
-        </a>
-        <a href="#">
-          <h4 class="kt__main__header__sub-header__sub-title">ID로 추가</h4>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends add with tel | Kakaotalk</title>
+    <script
+      src="https://kit.fontawesome.com/200b144238.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/pages/friends/friendsAddWithTel.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__icon">
+        <a href="/src/friends/index.html">
+          <i class="fas fa-times"></i>
         </a>
       </div>
-    </div>
-    <div class="kt__main__form">
-      <span class="kt__main__form__input">
-        <input type="text" name="frineds-name" placeholder="친구 이름">
-        0/20
-      </span>
-      <span class="kt__main__form__input">
-        +82
-        <i class="fas fa-chevron-down"></i>
-        <!-- scroll in css -->
-        <input type="text" name="frineds-name" placeholder="전화번호">
-      </span>
-      <p class="kt__main__form__input__desc">친구의 이름과 전화번호를 입력해주세요.</p>
-    </div>
-  </main>
-  <footer class="submit-btn">
-    <input type="button" value="친구 추가">
-  </footer>
-</body>
+    </header>
+    <main class="kt__main">
+      <div class="kt__main__header">
+        <h2 class="kt__main__header__title">친구 추가</h2>
+        <div class="kt__main__header__sub-header">
+          <a href="/src/friends/friendsAddWithTel.html">
+            <h4 class="kt__main__header__sub-header__sub-title">
+              연락처로 추가
+            </h4>
+          </a>
+          <a href="/src/friends/friendsAddWithId.html">
+            <h4 class="kt__main__header__sub-header__sub-title">ID로 추가</h4>
+          </a>
+        </div>
+      </div>
+      <div class="kt__main__form">
+        <span class="kt__main__form__input">
+          <input
+            type="text"
+            id="frineds-name"
+            name="frineds-name"
+            placeholder="친구 이름"
+          />0/20
+        </span>
+        <span class="kt__main__form__input">
+          <select name="national" id="national-select">
+            <option value="ko">+82</option>
+            <option value="af">Afganistan +93</option>
+            <option value="br">Brazil +55</option>
+            <option value="jp">Japan +81</option>
+          </select>
+          <!-- scroll in css -->
+          <input
+            type="text"
+            id="frineds-tel"
+            name="frineds-tel"
+            placeholder="전화번호"
+          />
+        </span>
+        <p class="kt__main__form__input__desc">
+          친구의 이름과 전화번호를 입력해주세요.
+        </p>
+      </div>
+    </main>
+    <footer class="submit-btn">
+      <input type="button" value="친구 추가" />
+    </footer>
+  </body>
 </html>

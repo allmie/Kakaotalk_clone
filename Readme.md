@@ -60,9 +60,8 @@
 ### Friends
 
 - [x] Main
-- [ ] User Detail
-- [ ] Friend add (ID, Tel)
-- [ ] User Detail (group, one, self)
+- [x] User Detail (one, self)
+- [x] Friend add (ID, Tel)
 - [ ] Friend search (js)
 - [ ] Friend list maximum/minimum (js)
 

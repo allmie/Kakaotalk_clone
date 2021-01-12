@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Friends add with id | Kakaotalk</title>
-  <script src="https://kit.fontawesome.com/200b144238.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header>
-    <div class="header__icon">
-      <i class="fas fa-times"></i>
-    </div>
-  </header>
-  <main class="kt__main">
-    <div class="kt__main__header">
-      <h2 class="kt__main__header__title">친구 추가</h2>
-      <div class="kt__main__header__sub-header">
-        <a href="#">
-          <h4 class="kt__main__header__sub-header__sub-title">연락처로 추가</h4>
-        </a>
-        <a href="#">
-          <h4 class="kt__main__header__sub-header__sub-title">ID로 추가</h4>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends add with id | Kakaotalk</title>
+    <script
+      src="https://kit.fontawesome.com/200b144238.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/pages/friends/friendsAddWithID.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__icon">
+        <a href="/src/friends/index.html">
+          <i class="fas fa-times"></i>
         </a>
       </div>
-    </div>
-    <div class="kt__main__form">
-      <span class="kt__main__form__input">
-        <input type="text" name="frineds-id" placeholder="친구 카카오톡 ID">
-        0/20
-      </span>
-      <p class="kt__main__form__input__desc">카카오톡 ID를 등록하고 검색을 허용한 친구만 찾을 수 있습니다.</p>
-    </div>
-  </main>
-</body>
+    </header>
+    <main class="kt__main">
+      <div class="kt__main__header">
+        <h2 class="kt__main__header__title">친구 추가</h2>
+        <div class="kt__main__header__sub-header">
+          <a href="/src/friends/friendsAddWithTel.html">
+            <h4 class="kt__main__header__sub-header__sub-title">
+              연락처로 추가
+            </h4>
+          </a>
+          <a href="/src/friends/friendsAddWithId.html">
+            <h4 class="kt__main__header__sub-header__sub-title">ID로 추가</h4>
+          </a>
+        </div>
+      </div>
+      <div class="kt__main__form">
+        <span class="kt__main__form__input">
+          <input
+            type="text"
+            id="friends-id"
+            name="frineds-id"
+            placeholder="친구 카카오톡 ID"
+          />0/20
+        </span>
+        <p class="kt__main__form__input__desc">
+          카카오톡 ID를 등록하고 검색을 허용한 친구만 찾을 수 있습니다.
+        </p>
+      </div>
+    </main>
+  </body>
 </html>
