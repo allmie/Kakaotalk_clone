@@ -10,21 +10,27 @@ body {
   padding: 30px 0;
 }
 
+/* header */
 header {
   position: absolute;
   top: 5px;
   right: 5px;
-  color: rgba(1, 1, 1, 0.3);
   font-size: 10px;
 }
+header i {
+  color: rgba(1, 1, 1, 0.3);
+}
 
-main .kt__main__header {
+/* main header */
+.kt__main__header {
   font-size: 14px;
   font-weight: 600;
   margin: 0 15px 25px 15px;
 }
 
-main .kt__main__search__friends {
+/* main */
+/* search-bar */
+.kt__main__search__friends {
   height: 30px;
   background-color: rgba(1, 1, 1, 0.05);
   border-radius: 15px;
@@ -37,37 +43,32 @@ main .kt__main__search__friends {
   margin: 15px;
   margin-top: 0;
 }
-main .kt__main__search__friends input {
+.kt__main__search__friends input {
   font-size: 11px;
   color: rgba(1, 1, 1, 0.3);
   margin-left: 5px;
+  width: 100%;
 }
 
-main .kt__main__friends .kt__main__friends-count {
+/* friends list */
+.kt__main__friends-count {
   font-size: 9px;
   font-weight: 600;
   color: rgba(1, 1, 1, 0.4);
   margin: 0 15px 5px 15px;
 }
-main .kt__main__friends .kt__main__friends-list {
+.kt__main__friends-list {
   display: flex;
   flex-direction: column;
 }
-main
-  .kt__main__friends
-  .kt__main__friends-list
-  .kt__main__friends-list__column {
+.kt__main__friends-list__column {
   height: 40px;
   display: flex;
   padding: 15px;
   padding-right: 5px;
   margin-right: 10px;
 }
-main
-  .kt__main__friends
-  .kt__main__friends-list
-  .kt__main__friends-list__column
-  .kt__main__friends-list__column-img {
+.kt__main__friends-list__column-img {
   width: 35px;
   height: 35px;
   font-size: 25px;
@@ -75,28 +76,25 @@ main
   align-self: center;
   padding: 5px;
 }
-main
-  .kt__main__friends
-  .kt__main__friends-list
-  .kt__main__friends-list__column
-  .kt__main__friends-list__column-txt {
+.kt__main__friends-list__column-txt {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-footer {
+/* footer button */
+.submit-btn {
   position: absolute;
   bottom: 20px;
   right: 20px;
 }
-footer input {
+.submit-btn input {
   padding: 10px 20px;
   border: 0.5px solid rgba(1, 1, 1, 0.1);
   font-size: 10px;
 }
-footer input:first-child {
+.submit-btn input[value="확인"] {
   background-color: rgba(1, 1, 1, 0.1);
   color: rgba(1, 1, 1, 0.5);
 }
