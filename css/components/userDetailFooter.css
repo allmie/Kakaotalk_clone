@@ -1,4 +1,5 @@
-footer {
+/* footer button */
+.button-list {
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -11,11 +12,11 @@ footer {
   border-top: 0.5px solid rgba(255, 255, 255, 0.4);
   color: rgba(255, 255, 255, 1);
 }
-
-footer .button-list__column i {
+.button-list__column i {
   font-size: 15px;
   margin-bottom: 10px;
 }
-footer .button-list__column .button-list__column-title {
+.button-list__column-title {
   font-size: 12px;
+  font-weight: 500;
 }

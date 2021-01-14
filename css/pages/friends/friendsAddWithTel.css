@@ -8,13 +8,17 @@ body {
   top: 60px;
   left: 60px;
   border: 1px solid rgba(1, 1, 1, 0.1);
+  box-shadow: 1px 1px 5px rgba(1, 1, 1, 0.1);
 }
 
-main .kt__main__header .kt__main__header__sub-header a:first-child {
+/* main header */
+.kt__main__header__sub-header a:first-child {
   border-bottom: 1px solid rgba(1, 1, 1, 1);
   color: rgba(1, 1, 1, 1);
 }
-main .kt__main__form .kt__main__form__input {
+/* main contents */
+/* input */
+.kt__main__form__input {
   margin-bottom: 15px;
   display: flex;
   justify-content: flex-start;
@@ -25,29 +29,29 @@ main .kt__main__form .kt__main__form__input {
   color: rgba(1, 1, 1, 0.4);
   border-bottom: 0.5px solid rgba(1, 1, 1, 0.2);
 }
-main .kt__main__form .kt__main__form__input input {
+.kt__main__form__input input {
   width: 100%;
 }
-
-main .kt__main__form .kt__main__form__input select {
+.kt__main__form__input select {
   width: 50px;
 }
-main .kt__main__form .kt__main__form__input input[id="frineds-tel"] {
+.kt__main__form__input input[id="frineds-tel"] {
   border-left: 0.5px solid rgba(1, 1, 1, 0.4);
   padding-left: 10px;
   margin-left: 10px;
 }
-main .kt__main__form .kt__main__form__input__desc {
+.kt__main__form__input__desc {
   font-size: 12px;
   color: rgba(1, 1, 1, 0.4);
 }
 
-footer {
+/* footer button */
+.submit-btn {
   position: absolute;
   bottom: 20px;
   right: 20px;
 }
-footer input {
+.submit-btn input {
   padding: 10px 13px;
   background-color: rgba(229, 229, 229, 1);
   color: rgba(1, 1, 1, 0.4);
