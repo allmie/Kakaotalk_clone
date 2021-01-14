@@ -1,20 +1,21 @@
-.kt__settings .kt__settings__header {
+.kt__settings__header {
   border-bottom: 1px solid rgba(1, 1, 1, 0.1);
-  height: 50px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   position: relative;
 }
-.kt__settings .kt__settings__header .kt__settings__header-title {
+.kt__settings__header-title {
   position: absolute;
   left: 15px;
   bottom: 10px;
-  font-weight: 500;
 }
-.kt__settings .kt__settings__header .kt__settings__header-icon {
+.kt__settings__header-icon {
   position: absolute;
   right: 5px;
   top: 5px;
   font-size: 9px;
+}
+.kt__settings__header i {
   color: rgba(1, 1, 1, 0.2);
 }
