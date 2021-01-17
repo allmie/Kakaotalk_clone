@@ -45,9 +45,15 @@ main .kt__main__header {
   color: rgba(231, 231, 231, 1);
 }
 .kt__main__header__column__friend-img {
-  font-size: 30px;
-  padding: 8px;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
   margin-left: 5px;
+}
+.kt__main__header__column__friend-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
 }
 .kt__main__header__column__row {
   font-size: 13px;
@@ -95,15 +101,20 @@ main .kt__main__header {
   margin-left: 15px;
   height: 60px;
 }
+.kt__main__chatting__record__friend a {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+.kt__main__chatting__record__friend img {
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+}
 .kt__main__chatting__record__friend .friend-name {
   margin-bottom: 10px;
   color: rgba(231, 231, 231, 1);
   font-size: 14px;
-}
-.kt__main__chatting__record__friend a {
-  width: 35px;
-  font-size: 30px;
-  margin-right: 10px;
 }
 .kt__main__chatting__record__friend p,
 .kt__main__chatting__record__mine p {

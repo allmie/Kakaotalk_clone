@@ -17,20 +17,31 @@ main {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: rgba(150, 141, 155, 1);
+  background-color: #9bb7c4;
   z-index: -1;
 }
 /* user info */
 .kt__main__friend-profile {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   width: 100%;
   bottom: 120px;
   color: rgba(255, 255, 255, 1);
 }
 .kt__main__friend-profile__img {
-  font-size: 80px;
+  background-color: rgba(154, 220, 250, 1);
+  width: 100px;
+  height: 100px;
   margin-bottom: 20px;
+  border-radius: 40%;
+}
+.kt__main__friend-profile__img i {
+  font-size: 50px;
+  padding-top: 25px;
+  color: rgba(210, 233, 252, 1);
 }
 .kt__main__friend-profile__txt__name {
   font-size: 15px;
