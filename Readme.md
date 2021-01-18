@@ -74,7 +74,8 @@
 
 ### More
 
-- [x] More
+- [x] Main
+- [x] notice (js)
 
 ---
 

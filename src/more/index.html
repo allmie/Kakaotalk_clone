@@ -124,19 +124,23 @@
             톡으로 QR 체인지 하세요
           </span>
         </span>
-        <span class="kt__main__notice-column">
-          <span class="kt__main__notice-column-keyword">Tips</span>
-          <span class="kt__main__notice-column-short-content">
-            '컴알못'도 문제 없어요~ 단축키 총정리
-          </span>
-        </span>
-        <span class="kt__main__notice-column">
-          <span class="kt__main__notice-column-keyword">나우</span>
-          <span class="kt__main__notice-column-short-content">
-            멜론에서 클래식 공연 보고 가세요
-          </span>
-        </span>
-      </div>
+        <script type="text/javascript">
+          let keywordArray = [ "Tips", "나우", "나우"];
+          let shortCtnArray = ["'컴알못'도 문제 없어요~ 단축키 총정리","멜론에서 클래식 공연 보고 가세요", "톡으로 QR 체인지 하세요"];
+          setInterval(() => {
+            let selectKey = keywordArray.shift();
+            let selectShortCtn = shortCtnArray.shift();
+
+            keywordArray.push(selectKey);
+            shortCtnArray.push(selectShortCtn);
+            
+            const keyword = document.getElementsByClassName("kt__main__notice-column-keyword");
+            const shortCtn = document.getElementsByClassName("kt__main__notice-column-short-content");
+            
+            keyword[0].innerHTML = selectKey;
+            shortCtn[0].innerHTML = selectShortCtn;
+          }, 4000)
+        </script>
     </main>
     <footer class="ad">
       <img src="/imgs/1.jpg" alt="광고 자리" />
