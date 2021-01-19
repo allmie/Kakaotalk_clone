@@ -18,15 +18,12 @@
 - [x] User Detail
 - [x] Friend add (ID, Tel)
 - [x] User Detail (group, one, self)
-- [ ] Friend search (js)
-- [ ] Friend list maximum/minimum (js)
 
 ### Chat
 
 - [x] Chat
 - [x] Chatting
 - [x] Invite friend
-- [ ] Chat search (js)
 - [x] Chatting
 
 ### More
@@ -62,15 +59,12 @@
 - [x] Main
 - [x] User Detail (one, self)
 - [x] Friend add (ID, Tel)
-- [ ] Friend search (js)
-- [ ] Friend list maximum/minimum (js)
 
 ### Chat
 
 - [x] Chat
-- [x] Chatting
+- [x] Chatting (css, js(연결 chatting.html))
 - [x] Invite friend
-- [ ] Chat search (js)
 
 ### More
 

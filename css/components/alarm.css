@@ -1,0 +1,35 @@
+.alarm {
+  position: absolute;
+  top: 170px;
+  left: 170px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 1);
+  font-size: 35px;
+  text-align: center;
+  border-radius: 5px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.on {
+  animation: 2s ease-in-out padeOut1;
+}
+.off {
+  animation: 2s ease-in-out padeOut2;
+}
+
+@keyframes padeOut1 {
+  20% {
+    opacity: 1;
+  }
+}
+@keyframes padeOut2 {
+  20% {
+    opacity: 1;
+  }
+}

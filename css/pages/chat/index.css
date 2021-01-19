@@ -108,6 +108,9 @@ body {
   padding: 10px 15px 10px 20px;
   position: relative;
 }
+.kt__main__info__list__chat-user-info:hover {
+  background-color: rgba(231, 230, 230, 0.45);
+}
 .kt__main__info__list__chat-user-info__img {
   height: 35px;
   width: 35px;

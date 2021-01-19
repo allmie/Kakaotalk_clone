@@ -16,6 +16,9 @@
       <span>Screen is too small.</span>
       <span>Width need to wider</span>
     </div>
+    <div class="alarm">
+      <i class="fas fa-bell-slash" style="user-select: auto"></i>
+    </div>
     <header>
       <div class="header__icon">
         <i class="fas fa-window-minimize"></i>
@@ -43,7 +46,7 @@
           <a href="/src/more/emoticonShop.html">
             <i class="far fa-smile-beam"></i>
           </a>
-          <a href="#">
+          <a class="on" href="#">
             <i class="far fa-bell"></i>
           </a>
           <a href="/src/more/settings/settings.html">
@@ -124,23 +127,10 @@
             톡으로 QR 체인지 하세요
           </span>
         </span>
-        <script type="text/javascript">
-          let keywordArray = [ "Tips", "나우", "나우"];
-          let shortCtnArray = ["'컴알못'도 문제 없어요~ 단축키 총정리","멜론에서 클래식 공연 보고 가세요", "톡으로 QR 체인지 하세요"];
-          setInterval(() => {
-            let selectKey = keywordArray.shift();
-            let selectShortCtn = shortCtnArray.shift();
+      </div>
 
-            keywordArray.push(selectKey);
-            shortCtnArray.push(selectShortCtn);
-            
-            const keyword = document.getElementsByClassName("kt__main__notice-column-keyword");
-            const shortCtn = document.getElementsByClassName("kt__main__notice-column-short-content");
-            
-            keyword[0].innerHTML = selectKey;
-            shortCtn[0].innerHTML = selectShortCtn;
-          }, 4000)
-        </script>
+      <script src="/js/js-notice.js"></script>
+      <script src="/js/js-alarm.js"></script>
     </main>
     <footer class="ad">
       <img src="/imgs/1.jpg" alt="광고 자리" />

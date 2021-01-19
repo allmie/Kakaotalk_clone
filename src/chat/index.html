@@ -16,6 +16,9 @@
       <span>Screen is too small.</span>
       <span>Width need to wider</span>
     </div>
+    <div class="alarm">
+      <i class="fas fa-bell-slash" style="user-select: auto"></i>
+    </div>
     <header>
       <div class="header__icon">
         <i class="fas fa-window-minimize"></i>
@@ -43,7 +46,7 @@
           <a href="/src/more/emoticonShop.html">
             <i class="far fa-smile-beam"></i>
           </a>
-          <a href="#">
+          <a class="on" href="#">
             <i class="far fa-bell"></i>
           </a>
           <a href="/src/more/settings/settings.html">
@@ -81,7 +84,7 @@
             <div class="kt__main__info__list__chat-user-info__img">
               <a href="/src/friends/userDetail.html">
                 <img
-                  src="https://lh3.googleusercontent.com/proxy/ZyQmJ0Wd6AhVVS9Fpw052bcMzscZF0rNzyfYHFWtO0CRgXyWlBknPqF9qvixJo7zkTSOuIcgUclsbQu1pMESsYtKMX2YShtVDqtB9C7gkuJ058-CDea4KpE3XbdOc8BYwhD_Py3HWA"
+                  src="https://lh3.googleusercontent.com/proxy/uGurLx44kK43Sl0ML3TRAV5ALORe8woOM0rI5iu45S26bUHvnkPA4nRy82xTTm_GK8VMou69mUxiY8Luo8pyISizekgf5hSdy9envE71WRY5-MeAdD0hQ40z9cP3CjxQT90fw3JFbw"
                   alt="스티브 잡스"
                 />
               </a>
@@ -102,7 +105,7 @@
             <div class="kt__main__info__list__chat-user-info__img">
               <a href="#">
                 <img
-                  src="https://lh3.googleusercontent.com/proxy/xVbRkiSoR6gfrnFiYEXUI0amo-RYYCIj1fqIcdQf5OKdvTvHv1N4BImJ138ryVBxZDJP2xspmYFMV1ou_NlSFxPeZqb1xDQLQbYb2AdVu_lzxteXhBSuV951PWXlI93yDUk"
+                  src="https://lh3.googleusercontent.com/proxy/1mvQz6tPqMFG62ySGytA9LC3fyTee_AypZOslZHJfLEznt4GM5K8F1u9Z-1trPX2GvmIX_1ChCccxzp4p1XZlfAH92RAXwObYVF-6xCs_v8z4tdyu_ZuQd1sVHgAKw"
                   alt="마이크로소프트"
                 />
               </a>
@@ -142,5 +145,15 @@
     <footer class="ad">
       <img src="/imgs/1.jpg" alt="광고 자리" />
     </footer>
+    <script type="text/javascript">
+      const btn = document.querySelectorAll(
+        ".kt__main__info__list__chat-user-info"
+      );
+
+      btn[0].addEventListener("dblclick", (e) => {
+        location.assign("/src/chat/chatting.html");
+      });
+    </script>
+    <script src="/js/js-alarm.js"></script>
   </body>
 </html>
