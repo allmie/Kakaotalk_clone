@@ -37,7 +37,7 @@
 ### Side-bar
 
 - [x] Emoticon shop
-- [ ] Alarm on/off (js)
+- [x] Alarm on/off (js)
 - [x] Lock mode
 - [x] Logout
 - [x] Settings
@@ -63,7 +63,8 @@
 ### Chat
 
 - [x] Chat
-- [x] Chatting (css, js(연결 chatting.html))
+- [x] Chatting (css, js-연결 chatting.html)
+- [x] Chatting (js-text focus)
 - [x] Invite friend
 
 ### More
@@ -78,7 +79,7 @@
 ### Side-bar
 
 - [x] Emoticon shop
-- [ ] Alarm on/off (js)
+- [x] Alarm on/off (js)
 - [x] Lock mode
 - [x] Logout
 - [x] Settings

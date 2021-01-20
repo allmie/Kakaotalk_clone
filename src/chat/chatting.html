@@ -89,7 +89,7 @@
     </main>
     <footer class="kt__more-func">
       <div class="kt__more-func__chatting__insert">
-        <textarea name="chat-content"></textarea>
+        <textarea name="chat-content" autofocus></textarea>
         <input type="button" value="전송" />
       </div>
       <div class="kt__more-func__bottom">
@@ -123,5 +123,24 @@
         <input type="range" name="transparent-control" />
       </div>
     </footer>
+
+    <!-- text focus -->
+    <script type="text/javascript">
+      const div = document.querySelector(".kt__more-func__chatting__insert");
+      const textarea = div.querySelector("textarea");
+      const input = div.querySelector("input");
+
+      textarea.addEventListener("input", (e) => {
+        const {
+          target: { value },
+        } = e;
+
+        if (isNaN(value)) {
+          input.classList.add("on");
+        } else {
+          input.classList.remove("on");
+        }
+      });
+    </script>
   </body>
 </html>

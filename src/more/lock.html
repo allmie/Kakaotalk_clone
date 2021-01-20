@@ -46,5 +46,21 @@
     <footer class="ad">
       <img src="/imgs/1.jpg" alt="광고 자리" />
     </footer>
+    <script type="text/javascript">
+      const form = document.querySelector(".kt__main__form");
+      const password = form.querySelector("input[type=password]");
+      const submit = form.querySelector("input[type=button]");
+
+      password.addEventListener("input", (e) => {
+        const {
+          target: { value },
+        } = e;
+        if (value.length > 3) {
+          submit.classList.add("on");
+        } else {
+          submit.classList.remove("on");
+        }
+      });
+    </script>
   </body>
 </html>

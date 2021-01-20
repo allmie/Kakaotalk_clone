@@ -67,19 +67,14 @@ header {
   padding: 0 5px;
   font-size: 12px;
 }
-.kt__main__login-form > input[type="button"] {
+.kt__main__login-form .submit {
   margin: 8px 0;
   color: rgba(185, 182, 182, 0.8);
   background-color: rgba(252, 252, 252, 1);
 }
-/* .kt__main__login-form > input[type="button"] {
-  margin: 5px 0;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(57, 39, 34, 1);
-} */
 .kt__main__login-form__auto-login {
-  width: 95%;
   display: flex;
+  margin-left: 5px;
 }
 .kt__main__login-form__auto-login label {
   display: flex;
@@ -114,4 +109,10 @@ header {
   font-size: 11px;
   font-weight: 700;
   color: rgba(92, 88, 88, 0.6);
+}
+
+/* js */
+.kt__main__login-form .on {
+  background-color: rgba(57, 40, 33, 1);
+  color: rgba(255, 255, 255, 1);
 }

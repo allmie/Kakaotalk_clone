@@ -32,21 +32,26 @@
         <i class="fab fa-kickstarter"></i>
       </div>
       <div class="kt__main__login-form">
-        <input type="email" name="login-id" placeholder="계정" />
+        <input
+          type="email"
+          name="login-id"
+          placeholder="계정"
+          value="allmie@naver.com"
+        />
         <input type="password" name="password" placeholder="비밀번호" />
-        <input type="button" value="로그인" />
-        <span class="kt__main__login-form__auto-login">
-          <input type="checkbox" name="auto-login" id="auto-login" />
-          <label for="auto-login">
-            자동로그인
-            <i class="fas fa-question-circle"></i>
-            <p class="auto-login-desc">
-              PC버전 실행시 잠금모드로 자동로그인됩니다. 로그인 후 설정에서
-              잠금모드 없는 자동 로그인으로 변경할 수 있습니다.
-            </p>
-          </label>
-        </span>
+        <input type="button" value="로그인" class="submit" />
       </div>
+      <span class="kt__main__login-form__auto-login">
+        <input type="checkbox" name="auto-login" id="auto-login" />
+        <label for="auto-login">
+          자동로그인
+          <i class="fas fa-question-circle"></i>
+          <p class="auto-login-desc">
+            PC버전 실행시 잠금모드로 자동로그인됩니다. 로그인 후 설정에서
+            잠금모드 없는 자동 로그인으로 변경할 수 있습니다.
+          </p>
+        </label>
+      </span>
     </main>
     <footer class="forget-account">
       <a href="#">
@@ -56,5 +61,51 @@
         <h4 class="foret-account__pw">비밀번호 재설정</h4>
       </a>
     </footer>
+    <script type="text/javascript">
+      const loginForm = document.querySelector(".kt__main__login-form");
+      const email = loginForm.querySelector("input[type=email]");
+      const password = loginForm.querySelector("input[type=password]");
+      const loginBtn = loginForm.querySelector("input[type=button");
+
+      let userEmail = email.value;
+      let userPassword = null;
+
+      email.addEventListener("change", (e) => {
+        e.preventDefault();
+        const {
+          target: { value },
+        } = e;
+        if (value.includes("@")) {
+          userEmail = true;
+        } else {
+          userEmail = false;
+        }
+
+        classAdd();
+      });
+
+      password.addEventListener("change", (e) => {
+        e.preventDefault();
+        const {
+          target: { value },
+        } = e;
+
+        if (value.length > 3) {
+          userPassword = true;
+        } else {
+          userPassword = false;
+        }
+
+        classAdd();
+      });
+
+      const classAdd = () => {
+        if (userEmail && userPassword) {
+          loginBtn.classList.add("on");
+        } else {
+          loginBtn.classList.remove("on");
+        }
+      };
+    </script>
   </body>
 </html>
