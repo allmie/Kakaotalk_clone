@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/200b144238.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/css/pages/more/logout.css" />
+    <link rel="stylesheet" href="assets/css/logout.css" />
   </head>
 
   <body>
@@ -70,7 +70,7 @@
       let userEmail = email.value;
       let userPassword = null;
 
-      email.addEventListener("change", (e) => {
+      email.addEventListener("input", (e) => {
         e.preventDefault();
         const {
           target: { value },
@@ -84,7 +84,7 @@
         classAdd();
       });
 
-      password.addEventListener("change", (e) => {
+      password.addEventListener("input", (e) => {
         e.preventDefault();
         const {
           target: { value },
