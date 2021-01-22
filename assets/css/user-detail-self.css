@@ -1,6 +1,6 @@
-@import "/css/styles.css";
-@import "/css/components/userDetailFooter.css";
-@import "/css/components/userDetailHeader.css";
+@import "styles.css";
+@import "components/user-detail-footer.css";
+@import "components/user-detail-header.css";
 
 body {
   width: 290px;
@@ -17,7 +17,7 @@ main {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: rgba(150, 141, 155, 1);
+  background-color: #9bb7c4;
   z-index: -1;
 }
 /* user info */
@@ -26,28 +26,28 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 100%;
   bottom: 120px;
   color: rgba(255, 255, 255, 1);
 }
 .kt__main__friend-profile__img {
+  background-color: rgba(154, 220, 250, 1);
   width: 100px;
   height: 100px;
   margin-bottom: 20px;
-}
-.kt__main__friend-profile__img img {
-  width: 100%;
-  height: 100%;
   border-radius: 40%;
 }
-.kt__main__friend-profile__txt {
-  display: flex;
-  justify-content: center;
+.kt__main__friend-profile__img i {
+  font-size: 50px;
+  padding-top: 25px;
+  color: rgba(210, 233, 252, 1);
 }
 .kt__main__friend-profile__txt__name {
-  margin-right: 8px;
+  font-size: 15px;
+  font-weight: 500;
   margin-bottom: 5px;
 }
-.kt__main__friend-profile__txt i {
-  font-size: 14px;
+.kt__main__friend-profile__txt__state-msg {
+  font-size: 10px;
 }

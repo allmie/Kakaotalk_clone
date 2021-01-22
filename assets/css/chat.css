@@ -1,6 +1,6 @@
 @import "styles.css";
-@import "components/mainHeader.css";
-@import "components/mainSideBar.css";
+@import "components/main-header.css";
+@import "components/main-sidebar.css";
 
 h2 {
   font-size: 15px;
