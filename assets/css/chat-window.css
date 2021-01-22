@@ -1,4 +1,4 @@
-@import "/css/styles.css";
+@import "styles.css";
 
 body {
   width: 350px;
@@ -187,15 +187,18 @@ main .kt__main__chatting__record .kt__main__chatting__record__mine {
   position: absolute;
   bottom: 0;
 }
-.kt__more-func__bottom .kt__more-func__bottom__list {
+.kt__more-func__bottom__list {
   width: 150px;
   display: flex;
   justify-content: space-between;
   font-size: 15px;
 }
-.kt__more-func__bottom input[type="range"] {
+input[type="range"] {
   height: 1px;
   width: 70px;
+}
+.kt__more-func__bottom__list__column a {
+  color: rgba(1, 1, 1, 0.5);
 }
 
 /* js */
